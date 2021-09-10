@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    color: #FFFFFF;
+   
+}
+html, body {height:100%;}
+body{
+    background: #FFFFFF url("../img/galaxy.jpg") fixed no-repeat 100%;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    color: #FFFFFF;
+    list-style-type: none;
+    
+}
+li{
+    font-weight: 200;
+}
+.button{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 3px 3px;
+    margin: 5px;
+    width: 100px;
+}
+input#date{
+    background-color: transparent;
+}
+img{
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: fit-content;
+    max-width: 100%;
+      
+}
+footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
